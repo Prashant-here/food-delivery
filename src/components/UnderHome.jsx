@@ -8,7 +8,7 @@ const UnderHome = ({searchs}) => {
 
   const loadData = async () => {
     try {
-      const response = await fetch("http://localhost:5000/api/foodData", {
+      const response = await fetch("https://food-delivery-topaz-five.vercel.app/api/foodData", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
