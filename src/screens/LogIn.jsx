@@ -12,7 +12,7 @@ const LogIn = () => {
   
     const handleSubmit=async (e)=>{
         e.preventDefault();
-        let data=await fetch("http://localhost:5000/api/loginuser",{
+        let data=await fetch("https://food-delivery-topaz-five.vercel.app/api/loginuser",{
             method:'POST',
             headers:{
                 'Content-Type':'application/json'
